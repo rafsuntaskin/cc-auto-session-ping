@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(chmod +x *)",
+      "WebFetch(domain:developers.openai.com)",
+      "Bash(node bin/cli.js)",
+      "Bash(node -e \"const {checkAll, printAvailability} = require\\('./lib/check'\\); printAvailability\\(checkAll\\(\\)\\);\")"
+    ]
+  }
+}

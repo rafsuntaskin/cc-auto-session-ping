@@ -1,0 +1,13 @@
+{
+  "name": "claude-auto-session",
+  "version": "0.1.0",
+  "description": "Auto-start Claude and Codex sessions on a schedule to maximize your daily token quota",
+  "bin": {
+    "claude-auto-session": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["claude", "codex", "session", "automation", "ai"],
+  "license": "MIT"
+}
