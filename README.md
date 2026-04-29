@@ -88,7 +88,9 @@ tail -f ~/.config/claude-auto-session/session.log
 
 ```bash
 claude-auto-session uninstall               # if installed via npm
-./uninstall.sh                              # if installed via shell
+./uninstall.sh                              # if installed via shell (cloned repo)
+curl -fsSL https://raw.githubusercontent.com/rafsuntaskin/cc-auto-session-ping/main/uninstall.sh | bash
+                                            # if installed via curl | bash
 ```
 
 Removes the launchd agent. Logs and config in `~/.config/claude-auto-session/` are left alone — delete them manually if you want.
