@@ -28,13 +28,13 @@ claude-auto-session install --providers claude,codex --interval 10800
 ### Option B — curl | bash (no Node.js required)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/rafsuntaskin/claude-auto-session/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rafsuntaskin/cc-auto-session-ping/main/install.sh | bash
 ```
 
 Or clone and run locally:
 ```bash
-git clone https://github.com/rafsuntaskin/claude-auto-session.git
-cd claude-auto-session
+git clone https://github.com/rafsuntaskin/cc-auto-session-ping.git
+cd cc-auto-session-ping
 ./install.sh
 ```
 
